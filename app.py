@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 
 # Page Configuration
-st.set_page_config(page_title="Boston House Price Predictor", layout="centered")
+st.set_page_config(page_title="Boston House Price Predictor", layout="centered",page_icon="🏠")
 
 st.title("🏡 Boston House Price Prediction")
 st.write("Enter neighborhood details below to predict estimated house prices.")
